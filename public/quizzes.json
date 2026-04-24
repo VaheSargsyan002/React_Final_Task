@@ -1,0 +1,143 @@
+[
+  {
+    "id": "seed-js-basics",
+    "topic": "JavaScript Fundamentals",
+    "language": "English",
+    "questionCount": 5,
+    "hardness": "Beginner",
+    "specialRequests": "Focus on everyday syntax and browser basics.",
+    "createdAt": "2026-01-10T10:00:00.000Z",
+    "source": "seed",
+    "questions": [
+      {
+        "id": "q-1",
+        "text": "Which keyword declares a block-scoped variable in JavaScript?",
+        "options": ["let", "var", "function", "return"],
+        "correctAnswerIndex": 0,
+        "explanation": "let creates a variable scoped to the nearest block."
+      },
+      {
+        "id": "q-2",
+        "text": "Which method turns a JSON string into a JavaScript object?",
+        "options": ["JSON.parse", "JSON.stringify", "Object.keys", "Array.from"],
+        "correctAnswerIndex": 0,
+        "explanation": "JSON.parse reads valid JSON text and returns the matching value."
+      },
+      {
+        "id": "q-3",
+        "text": "What does === check?",
+        "options": ["Value and type equality", "Only value equality", "Assignment", "String conversion"],
+        "correctAnswerIndex": 0,
+        "explanation": "Strict equality compares without coercing types."
+      },
+      {
+        "id": "q-4",
+        "text": "Which array method adds an item to the end?",
+        "options": ["push", "pop", "shift", "slice"],
+        "correctAnswerIndex": 0,
+        "explanation": "push appends one or more values to an array."
+      },
+      {
+        "id": "q-5",
+        "text": "Which browser API stores simple session data across refreshes?",
+        "options": ["localStorage", "Math", "fetch", "history.back"],
+        "correctAnswerIndex": 0,
+        "explanation": "localStorage persists string data until it is cleared."
+      }
+    ]
+  },
+  {
+    "id": "seed-react-state",
+    "topic": "React State Management",
+    "language": "English",
+    "questionCount": 5,
+    "hardness": "Intermediate",
+    "specialRequests": "Include hooks and component updates.",
+    "createdAt": "2026-02-18T12:30:00.000Z",
+    "source": "seed",
+    "questions": [
+      {
+        "id": "q-1",
+        "text": "Which hook stores state inside a function component?",
+        "options": ["useState", "useMemo", "useRef", "useId"],
+        "correctAnswerIndex": 0,
+        "explanation": "useState returns a state value and a setter."
+      },
+      {
+        "id": "q-2",
+        "text": "Why should state updates based on previous state use a callback?",
+        "options": ["It receives the latest state safely", "It skips rendering forever", "It mutates props", "It disables effects"],
+        "correctAnswerIndex": 0,
+        "explanation": "The callback form prevents stale state when updates are batched."
+      },
+      {
+        "id": "q-3",
+        "text": "What should you avoid doing directly to React state?",
+        "options": ["Mutating it in place", "Reading it during render", "Passing it as props", "Rendering it as text"],
+        "correctAnswerIndex": 0,
+        "explanation": "React needs new references to detect and render changes reliably."
+      },
+      {
+        "id": "q-4",
+        "text": "Which hook is best for sharing state across distant components without prop drilling?",
+        "options": ["useContext", "useCallback", "useLayoutEffect", "useDebugValue"],
+        "correctAnswerIndex": 0,
+        "explanation": "Context lets descendants read shared values from a provider."
+      },
+      {
+        "id": "q-5",
+        "text": "What usually belongs in derived state?",
+        "options": ["Values computed from existing state or props", "Duplicate copies of every prop", "DOM nodes only", "Network credentials"],
+        "correctAnswerIndex": 0,
+        "explanation": "Derived values should come from existing data when possible."
+      }
+    ]
+  },
+  {
+    "id": "seed-python-oop",
+    "topic": "Python Object-Oriented Programming",
+    "language": "English",
+    "questionCount": 5,
+    "hardness": "Advanced",
+    "specialRequests": "Ask about classes, inheritance, and special methods.",
+    "createdAt": "2026-03-07T09:15:00.000Z",
+    "source": "seed",
+    "questions": [
+      {
+        "id": "q-1",
+        "text": "Which method initializes a new Python object after allocation?",
+        "options": ["__init__", "__new__", "__call__", "__repr__"],
+        "correctAnswerIndex": 0,
+        "explanation": "__init__ configures the instance after it has been created."
+      },
+      {
+        "id": "q-2",
+        "text": "What does super() commonly do in a subclass?",
+        "options": ["Delegates to a parent or next class in the MRO", "Creates a global variable", "Stops inheritance", "Deletes an instance"],
+        "correctAnswerIndex": 0,
+        "explanation": "super() follows Python's method resolution order."
+      },
+      {
+        "id": "q-3",
+        "text": "Which special method controls the developer-facing representation?",
+        "options": ["__repr__", "__len__", "__iter__", "__eq__"],
+        "correctAnswerIndex": 0,
+        "explanation": "__repr__ should return an unambiguous representation."
+      },
+      {
+        "id": "q-4",
+        "text": "What is composition?",
+        "options": ["Building behavior by holding other objects", "Copying every method into a child class", "A syntax error handler", "A loop over class names"],
+        "correctAnswerIndex": 0,
+        "explanation": "Composition models has-a relationships through contained objects."
+      },
+      {
+        "id": "q-5",
+        "text": "Which decorator is commonly used for methods that do not need instance state?",
+        "options": ["@staticmethod", "@property", "@dataclass", "@abstractmethod"],
+        "correctAnswerIndex": 0,
+        "explanation": "@staticmethod defines a method that does not receive self or cls automatically."
+      }
+    ]
+  }
+]
